@@ -1,0 +1,26 @@
+# Node dependencies & build output
+node_modules/
+dist/
+release/
+.npm/
+
+# Tauri & Rust build output
+src-tauri/target/
+src-tauri/gen/
+
+# Executable binaries & downloaded engines
+ffmpeg*
+yt-dlp*
+
+# Environment & OS files
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+*.suo
+*.user
